@@ -1,0 +1,25 @@
+# Local Android/Gradle build products
+.gradle/
+**/build/
+local.properties
+.cxx/
+.externalNativeBuild/
+captures/
+
+# IDE and OS artifacts
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Release signing material and local credentials
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+keystore.properties
+signing.properties
+
+# Transient exports
+*.log
